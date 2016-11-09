@@ -15,12 +15,12 @@ d3.csv("./total.csv",
 	{
 		var ln = data.length;
 		console.log(data);
-		var maxy = d3.max(data, function(d){ return d.sum; });
-		var miny = d3.min(data, function(d){ return d.sum; });
+		var maxy = d3.max(data, function(d){ return d.people; });
+		var miny = d3.min(data, function(d){ return d.people; });
 		console.log(maxy);
 		console.log(miny);
-		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.sum-miny)*(height/(maxy-miny))});
-		var lines2 = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.sum-miny)*(height/(maxy-miny))});
+		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.people-miny)*(height/(maxy-miny))});
+		var lines2 = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.people-miny)*(height/(maxy-miny))});
 		ctrl.append("path").data([data]).attr("d", lines).attr("stroke", "red").attr("fill", "none");
 		ctrl.append("path").data([data]).attr("d", lines2).attr("stroke", "blue").attr("fill", "none");
 	}
