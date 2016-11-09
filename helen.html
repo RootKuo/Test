@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+var width = 800;
+var height = 500;
+var ctrl = d3.select("body").append("svg").attr("width", width).attr("height", height);
+d3.csv("./total.csv", 
+	function(data)
+	{
+		var ln = data.length;
+		console.log(data);
+		var maxy = d3.max(data, function(d){ return d.sum; });
+		var miny = d3.min(data, function(d){ return d.sum; });
+		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.sum-miny)*(height/(maxy-miny))});
+		var lines2 = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.sum-miny)*(height/(maxy-miny))});
+		ctrl.append("path").data([data]).attr("d", lines).attr("stroke", "red").attr("fill", "none");
+		ctrl.append("path").data([data]).attr("d", lines2).attr("stroke", "blue").attr("fill", "none");
+	}
+);
+</script>
+</body>
+</html>
