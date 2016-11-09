@@ -20,9 +20,7 @@ d3.csv("./total.csv",
 		console.log(maxy);
 		console.log(miny);
 		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.people-miny)*(height/(maxy-miny))});
-		var lines2 = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.people-miny)*(height/(maxy-miny))});
 		ctrl.append("path").data([data]).attr("d", lines).attr("stroke", "red").attr("fill", "none");
-		ctrl.append("path").data([data]).attr("d", lines2).attr("stroke", "blue").attr("fill", "none");
 	}
 );
 </script>
