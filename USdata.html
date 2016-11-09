@@ -16,7 +16,8 @@ d3.csv("./USDATA.csv",
 		var ln = data.length;
 		console.log(data);
 		var maxy = d3.max(data, function(d){ return d.SOLD; });
-		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-d.SOLD*(height/maxy)});
+		var miny = d3.min(data, function(d){ return d.SOLD; });
+		var lines = d3.line().x(function(d,i){return (ln-i)*(width/ln);}).y(function(d){return height-(d.SOLD-miny)*(height/(maxy-miny))});
 		ctrl.append("path").data([data]).attr("d", lines).attr("stroke", "red").attr("fill", "none");
 	}
 );
