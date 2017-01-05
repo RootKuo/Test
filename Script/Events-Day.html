@@ -22,11 +22,11 @@ var chart = c3.generate({
         url: '../Data/Events-Day.csv',
         types:{ 
           Events: 'bar',
-      },
+        },
     },
     bar: {
         width: {
-            ratio: 0.5
+            ratio: 0.9
         }
     },
     axis: {
@@ -36,6 +36,9 @@ var chart = c3.generate({
                 format: '%Y-%m-%d'
             }
         }
+    },
+    zoom: {
+        enabled: true
     }
 });
 
