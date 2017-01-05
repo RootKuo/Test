@@ -17,11 +17,15 @@
 
 var chart = c3.generate({
     data: {
-      
         x: 'Day',
         xFormat: '%Y%m%d',
         url: '../Data/Events-Day.csv',
         type: 'bar'
+      },
+    bar: {
+        width: {
+            ratio: 0.5
+        }
       },
     axis: {
         x: {
