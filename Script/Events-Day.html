@@ -20,9 +20,9 @@ var chart = c3.generate({
         x: 'Day',
         xFormat: '%Y%m%d',
         url: '../Data/Events-Day.csv',
-        // types:{ 
-        //   Events: 'bar',
-        // },
+        types:{ 
+          Events: 'bar',
+        },
     },
     // bar: {
     //     width: {
@@ -33,7 +33,9 @@ var chart = c3.generate({
         x: {
             type: 'timeseries',
             tick: {
-                format: '%Y-%m-%d'
+                format: '%Y-%m-%d',
+                rotate: 75,
+                multiline: false
             }
         }
     },
