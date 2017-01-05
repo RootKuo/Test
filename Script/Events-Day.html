@@ -19,11 +19,10 @@ var chart = c3.generate({
     data: {
         x:'Date',
         xFormat: '%Y/%m/%d',
-        url: '../Data/Events-Day.csv',
-        type: "line"
+        url: '../Data/Events-Day.csv'
     },
     axis: {
-        Date: {
+        x: {
             type: 'timeseries',
             tick: {
                 format: '%Y-%m-%d'
