@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Load c3.css -->
+  <link href="../c3.css" rel="stylesheet" type="text/css">
+  <!-- Load d3.js and c3.js -->
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="../c3.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+<div id="chart"></div>
+</body>
+<script type="text/javascript">
+
+var chart = c3.generate({
+    data: {
+        x: 'Month',
+        xFormat: '%Y',
+        url: '../Data/Events-Year.csv',
+        // types:{ 
+        //   Events: 'bar',
+        // },
+    },
+    // bar: {
+    //     width: {
+    //         ratio: 0.5
+    //     }
+    // },
+    axis: {
+        x: {
+            type: 'timeseries',
+            tick: {
+                format: '%Y',
+                rotate: 75
+            }
+        }
+    },
+    zoom: {
+        enabled: true
+    }
+});
+
+chart.load({
+
+});
+
+</script>
+</html>
