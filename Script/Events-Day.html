@@ -17,32 +17,25 @@
 
 var chart = c3.generate({
     data: {
-        // x: 'Day',
-        // xFormat: '%Y%m%d',
-        // url: '../Data/Events-Day.csv',
+         x: 'Day',
+         xFormat: '%Y%m%d',
+         url: '../Data/Events-Day.csv',
         
-        x: 'Day',
-        // type: 'bar',
-        columns: [
-            ['Day', '2016-01-05', '2016-01-06', '2016-01-10'],
-            ['Events', 50, 56, 75],
-        ],
-
         types:{ 
           Events: 'bar',
         },
     },
-    // bar: {
-    //     width: {
-    //         ratio: 0.5
-    //     }
-    // },
+     bar: {
+         width: {
+             ratio: 0.5
+         }
+     },
     axis: {
         x: {
             type: 'timeseries',
             tick: {
                 format: '%Y-%m-%d',
-                // count: 50,
+                count: 50,
                 rotate: 75
             }
         }
