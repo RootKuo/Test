@@ -24,11 +24,13 @@ var chart = c3.generate({
           Events: 'bar',
         },
     },
-     bar: {
+
+    bar: {
          width: {
              ratio: 0.5
          }
-     },
+    },
+
     axis: {
         x: {
             type: 'category',
@@ -39,9 +41,11 @@ var chart = c3.generate({
             heigth: 130,
         },
     },
+
     color: {
         pattern: ['#1f77b4']
     },
+    
     zoom:{
       enabled: true
     }
