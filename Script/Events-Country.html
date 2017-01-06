@@ -15,33 +15,11 @@
 </body>
 <script type="text/javascript">
 
+
 var chart = c3.generate({
     data: {
-         x: 'Day',
-         xFormat: '%Y%m%d',
-         url: '../Data/Events-Day.csv',
-        
-        types:{ 
-          Events: 'bar',
-        },
-    },
-     bar: {
-         width: {
-             ratio: 0.05
-         }
-     },
-    axis: {
-        x: {
-            type: 'timeseries',
-            tick: {
-                format: '%Y-%m-%d',
-                count: 100,
-                rotate: 75
-            }
-        }
-    },
-    zoom: {
-        enabled: true
+        url: '../Data/Events-Country.csv',
+        type : 'pie',
     }
 });
 
