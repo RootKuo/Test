@@ -21,6 +21,13 @@ var chart = c3.generate({
         url: '../Data/Events-Continent(Pie).csv',
         type : 'pie',
     },
+    pie: {
+        label: {
+            format: function (value, ratio, id) {
+                        return d3.format('')(value);
+                    }
+        }
+    },
     legend: {
         position: 'right'
     }
