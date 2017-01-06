@@ -1,179 +1,179 @@
 Continent,Country,Events
-N. AMERICA,United States,1473
-ASIA,Russia,228
-S. AMERICA,Brazil,219
-N. AMERICA,Canada,180
-EUROPE,France,163
-S. AMERICA,Colombia,162
-EUROPE,United Kingdom,135
-ASIA,Indonesia,112
-ASIA,India,110
-EUROPE,Germany,98
-N. AMERICA,Mexico,97
-OCEANIA,Australia,92
-ASIA,China,90
-EUROPE,Italy,80
-EUROPE,Spain,79
-ASIA,Philippines,78
-ASIA,Vietnam,78
-AFRICA,Congo D.R.,69
-S. AMERICA,Venezuela,66
-S. AMERICA,Argentina,58
-S. AMERICA,Peru,55
-ASIA,Japan,53
-S. AMERICA,Bolivia,52
-ASIA,Iran,48
-AFRICA,Angola,47
-OCEANIA,Papua New Guinea,47
-ASIA,Afghanistan,46
-AFRICA,Egypt,44
-ASIA,Taiwan,41
-ASIA,Pakistan,38
-S. AMERICA,Ecuador,37
-EUROPE,Ukraine,36
-ASIA,Nepal,35
-AFRICA,Nigeria,35
-EUROPE,Norway,35
-ASIA,Turkey,33
-N. AMERICA,Honduras,32
-EUROPE,Greece,30
-ASIA,Thailand,30
-AFRICA,Morocco,29
-AFRICA,Sudan,29
-AFRICA,Cameroon,28
-ASIA,Laos,28
-AFRICA,Kenya,26
-ASIA,Myanmar,26
-N. AMERICA,Puerto Rico,26
-AFRICA,South Africa,26
-AFRICA,Algeria,25
-OCEANIA,New Zealand,25
-EUROPE,Romania,24
-S. AMERICA,Chile,23
-ASIA,Saudi Arabia,23
-AFRICA,Libya,22
-EUROPE,Switzerland,22
-EUROPE,Netherlands,20
-EUROPE,Portugal,20
-N. AMERICA,Nicaragua,19
-N. AMERICA,Cuba,18
-N. AMERICA,Guatemala,18
-EUROPE,Belgium,17
-EUROPE,Ireland,17
-ASIA,South Korea,17
-AFRICA,Ethiopia,16
-ASIA,Malaysia,16
-EUROPE,Georgia,15
-ASIA,Kazakhstan,15
-N. AMERICA,Panama,15
-ASIA,Sri Lanka,15
-EUROPE,Sweden,15
-N. AMERICA,Costa Rica,14
-ASIA,Hong Kong,14
-ASIA,Iraq,14
-EUROPE,Poland,14
-ASIA,Syria,14
-N. AMERICA,Bahamas,13
-AFRICA,Somalia,13
-EUROPE,Bulgaria,12
-EUROPE,Czech Republic,12
-N. AMERICA,U.S. Virgin Islands,12
-OCEANIA,French Polynesia,10
-AFRICA,Senegal,10
-ASIA,United Arab Emirates,10
-ASIA,Uzbekistan,10
-EUROPE,Azerbaijan,9
-EUROPE,Denmark,9
-AFRICA,Madagascar,9
-AFRICA,South Sudan,9
-ASIA,Yemen,9
-EUROPE,Estonia,8
-N. AMERICA,Haiti,8
-EUROPE,Hungary,8
-ASIA,Lebanon,8
-AFRICA,Mozambique,8
-EUROPE,Serbia,8
-AFRICA,Tanzania,8
-S. AMERICA,Uruguay,8
-EUROPE,Iceland,7
-EUROPE,Malta,7
-AFRICA,Mauritania,7
-OCEANIA,New Caledonia,7
-EUROPE,Slovakia,7
-OCEANIA,American Samoa,6
-N. AMERICA,Dominican Republic,6
-N. AMERICA,Greenland,6
-ASIA,Guam,6
-AFRICA,Liberia,6
-ASIA,Mongolia,6
-EUROPE,Armenia,5
-EUROPE,Austria,5
-ASIA,Bangladesh,5
-ASIA,Cambodia,5
-AFRICA,Central African Republic,5
-AFRICA,Cote d'Ivoire,5
-EUROPE,Croatia,5
-N. AMERICA,El Salvador,5
-S. AMERICA,Guyana,5
-ASIA,Kyrgyzstan,5
-EUROPE,Macedonia,5
-AFRICA,Namibia,5
-EUROPE,Slovenia,5
-S. AMERICA,Suriname,5
-AFRICA,Uganda,5
-AFRICA,Zambia,5
-N. AMERICA,Bermuda,4
-EUROPE,Bosnia and Herzegovina,4
-EUROPE,Cyprus,4
-EUROPE,Finland,4
-AFRICA,Mali,4
-AFRICA,Niger,4
-AFRICA,Rwanda,4
-AFRICA,Zimbabwe,4
-EUROPE,Belarus,3
-AFRICA,Botswana,3
-AFRICA,Guinea,3
-ASIA,Israel,3
-N. AMERICA,Minor Outlying Islands,3
-ASIA,Qatar,3
-AFRICA,Sierra Leone,3
-N. AMERICA,Turks and Caicos Islands,3
-EUROPE,Albania,2
-N. AMERICA,Barbados,2
-AFRICA,Cape Verde,2
-S. AMERICA,Caribbean Netherlands,2
-AFRICA,Chad,2
-S. AMERICA,Curacao,2
-AFRICA,Eritrea,2
-ANTARCTICA,French Southern Territories,2
-N. AMERICA,Jamaica,2
-EUROPE,Latvia,2
-EUROPE,Lithuania,2
-EUROPE,Luxembourg,2
-EUROPE,Moldova,2
-ASIA,North Korea,2
-ASIA,Singapore,2
-AFRICA,Tunisia,2
-N. AMERICA,Antigua and Barbuda,1
-N. AMERICA,Belize,1
-AFRICA,Benin,1
-ASIA,Bhutan,1
-N. AMERICA,British Virgin Islands,1
-AFRICA,Burkina Faso,1
-OCEANIA,Cook Islands,1
-N. AMERICA,Dominica,1
-ASIA,East Timor,1
-EUROPE,Faroe Islands,1
-EUROPE,Guernsey,1
-EUROPE,Isle of Man,1
-OCEANIA,Kiribati,1
-ASIA,Macao,1
-AFRICA,Malawi,1
-OCEANIA,Marshall Islands,1
-AFRICA,Mauritius,1
-OCEANIA,Northern Mariana Islands,1
-OCEANIA,Palau,1
-S. AMERICA,Paraguay,1
-N. AMERICA,Saint-Barthelemy,1
-N. AMERICA,Sint Maarten,1
-EUROPE,Svalbard and Jan Mayen,1
+N. America,United States,1473
+Asia,Russia,228
+S. America,Brazil,219
+N. America,Canada,180
+Europe,France,163
+S. America,Colombia,162
+Europe,United Kingdom,135
+Asia,Indonesia,112
+Asia,India,110
+Europe,Germany,98
+N. America,Mexico,97
+Oceania,Australia,92
+Asia,China,90
+Europe,Italy,80
+Europe,Spain,79
+Asia,Philippines,78
+Asia,Vietnam,78
+Africa,Congo D.R.,69
+S. America,Venezuela,66
+S. America,Argentina,58
+S. America,Peru,55
+Asia,Japan,53
+S. America,Bolivia,52
+Asia,Iran,48
+Africa,Angola,47
+Oceania,Papua New Guinea,47
+Asia,Afghanistan,46
+Africa,Egypt,44
+Asia,Taiwan,41
+Asia,Pakistan,38
+S. America,Ecuador,37
+Europe,Ukraine,36
+Asia,Nepal,35
+Africa,Nigeria,35
+Europe,Norway,35
+Asia,Turkey,33
+N. America,Honduras,32
+Europe,Greece,30
+Asia,Thailand,30
+Africa,Morocco,29
+Africa,Sudan,29
+Africa,Cameroon,28
+Asia,Laos,28
+Africa,Kenya,26
+Asia,Myanmar,26
+N. America,Puerto Rico,26
+Africa,South Africa,26
+Africa,Algeria,25
+Oceania,New Zealand,25
+Europe,Romania,24
+S. America,Chile,23
+Asia,Saudi Arabia,23
+Africa,Libya,22
+Europe,Switzerland,22
+Europe,Netherlands,20
+Europe,Portugal,20
+N. America,Nicaragua,19
+N. America,Cuba,18
+N. America,Guatemala,18
+Europe,Belgium,17
+Europe,Ireland,17
+Asia,South Korea,17
+Africa,Ethiopia,16
+Asia,Malaysia,16
+Europe,Georgia,15
+Asia,Kazakhstan,15
+N. America,Panama,15
+Asia,Sri Lanka,15
+Europe,Sweden,15
+N. America,Costa Rica,14
+Asia,Hong Kong,14
+Asia,Iraq,14
+Europe,Poland,14
+Asia,Syria,14
+N. America,Bahamas,13
+Africa,Somalia,13
+Europe,Bulgaria,12
+Europe,Czech Republic,12
+N. America,U.S. Virgin Islands,12
+Oceania,French Polynesia,10
+Africa,Senegal,10
+Asia,United Arab Emirates,10
+Asia,Uzbekistan,10
+Europe,Azerbaijan,9
+Europe,Denmark,9
+Africa,Madagascar,9
+Africa,South Sudan,9
+Asia,Yemen,9
+Europe,Estonia,8
+N. America,Haiti,8
+Europe,Hungary,8
+Asia,Lebanon,8
+Africa,Mozambique,8
+Europe,Serbia,8
+Africa,Tanzania,8
+S. America,Uruguay,8
+Europe,Iceland,7
+Europe,Malta,7
+Africa,Mauritania,7
+Oceania,New Caledonia,7
+Europe,Slovakia,7
+Oceania,American Samoa,6
+N. America,Dominican Republic,6
+N. America,Greenland,6
+Asia,Guam,6
+Africa,Liberia,6
+Asia,Mongolia,6
+Europe,Armenia,5
+Europe,Austria,5
+Asia,Bangladesh,5
+Asia,Cambodia,5
+Africa,Central African Republic,5
+Africa,Cote d'Ivoire,5
+Europe,Croatia,5
+N. America,El Salvador,5
+S. America,Guyana,5
+Asia,Kyrgyzstan,5
+Europe,Macedonia,5
+Africa,Namibia,5
+Europe,Slovenia,5
+S. America,Suriname,5
+Africa,Uganda,5
+Africa,Zambia,5
+N. America,Bermuda,4
+Europe,Bosnia and Herzegovina,4
+Europe,Cyprus,4
+Europe,Finland,4
+Africa,Mali,4
+Africa,Niger,4
+Africa,Rwanda,4
+Africa,Zimbabwe,4
+Europe,Belarus,3
+Africa,Botswana,3
+Africa,Guinea,3
+Asia,Israel,3
+N. America,Minor Outlying Islands,3
+Asia,Qatar,3
+Africa,Sierra Leone,3
+N. America,Turks and Caicos Islands,3
+Europe,Albania,2
+N. America,Barbados,2
+Africa,Cape Verde,2
+S. America,Caribbean Netherlands,2
+Africa,Chad,2
+S. America,Curacao,2
+Africa,Eritrea,2
+Antarctica,French Southern Territories,2
+N. America,Jamaica,2
+Europe,Latvia,2
+Europe,Lithuania,2
+Europe,Luxembourg,2
+Europe,Moldova,2
+Asia,North Korea,2
+Asia,Singapore,2
+Africa,Tunisia,2
+N. America,Antigua and Barbuda,1
+N. America,Belize,1
+Africa,Benin,1
+Asia,Bhutan,1
+N. America,British Virgin Islands,1
+Africa,Burkina Faso,1
+Oceania,Cook Islands,1
+N. America,Dominica,1
+Asia,East Timor,1
+Europe,Faroe Islands,1
+Europe,Guernsey,1
+Europe,Isle of Man,1
+Oceania,Kiribati,1
+Asia,Macao,1
+Africa,Malawi,1
+Oceania,Marshall Islands,1
+Africa,Mauritius,1
+Oceania,Northern Mariana Islands,1
+Oceania,Palau,1
+S. America,Paraguay,1
+N. America,Saint-Barthelemy,1
+N. America,Sint Maarten,1
+Europe,Svalbard and Jan Mayen,1
