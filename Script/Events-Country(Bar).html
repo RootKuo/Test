@@ -17,9 +17,8 @@
 
 var chart = c3.generate({
     data: {
-         x: 'Day',
-         xFormat: '%Y%m%d',
-         url: '../Data/Events-Day.csv',
+         x: 'Country',
+         url: '../Data/Events-Country(full).csv',
         
         types:{ 
           Events: 'bar',
@@ -27,25 +26,16 @@ var chart = c3.generate({
     },
      bar: {
          width: {
-             ratio: 0.05
+             ratio: 0.5
          }
      },
-
     axis: {
         x: {
-            type: 'timeseries',
-            tick: {
-                format: '%Y-%m-%d',
-                count: 100,
-                rotate: 75,     
-                culling: {
-                    min: 20 // the number of tick texts will be adjusted to less than this value
-                },
-            }
+            type: 'category',
         }
     },
-    zoom: {
-        enabled: true
+    color: {
+        pattern: ['#1f77b4']
     }
 });
 
