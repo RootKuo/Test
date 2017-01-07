@@ -34,6 +34,10 @@ var chart = c3.generate({
               label: 'Latitude',
               min: -90,
               max: 90,
+              center: 0,
+              tick: {
+                value: [-90,-60,-30,0,30,60,90]
+              },
            }
         }
 });
