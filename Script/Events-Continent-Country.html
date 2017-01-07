@@ -13,20 +13,22 @@
 
 <body>
 <br/>
-<input type="button" id="World" value="World"></input>
-<input type="button" id="Asia" value="Asia"></input>
-<input type="button" id="Africa" value="Africa"></input>
-<input type="button" id="Europe" value="Europe"></input>
-<input type="button" id="Oceania" value="Oceania"></input>
-<input type="button" id="NAmerica" value="North America"></input>
-<input type="button" id="SAmerica" value="South America"></input>
-<input type="button" id="Antarctica" value="Antarctica"></input>
+
+<select id="area">
+    <option value='Continent'>World</option>
+    <option>Asia</option>
+    <option>Africa</option>
+    <option>Europe</option>
+    <option>Oceania</option>
+    <option value='NAmerica'>North America</option>
+    <option value='SAmerica'>South America</option>
+    <option>Antarctica</option>
+</select>
 <br />
 
 <select id="style">
-    <option>-- Choose Chart--</option>
     <option value='bar'>Bar Chart</option>
-    <option value='pie' defaultSelected=true>Pie Chart</option>
+    <option value='pie'>Pie Chart</option>
     <option value='donut'>Donut Chart</option>
 </select>
 <br />
@@ -36,13 +38,14 @@
 <script type="text/javascript">
 
 $(document).ready(function () {
-    $("#style").change(function () {
+    $("#style","#area").change(function () {
         var cs = $("#style").find('option:selected').val();
-
+        var ar = $("#area").find('option:selected').val();
+        
         var chart = c3.generate({
     bindto: '#chart',
     data: {
-        url: '../Data/Events-Continent(Pie).csv',
+        url: '../Data/Events-Continent/'+ar+'.csv',
         type : cs,
     },
     pie: {
@@ -57,61 +60,61 @@ $(document).ready(function () {
     }
 });
 
-$('#World').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Continent.csv',
-        unload: chart.url,
-    });
-});
+// $('#World').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Continent.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#Asia').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Asia.csv',
-        unload: chart.url,
-    });
-});
+// $('#Asia').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Asia.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#Africa').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Africa.csv',
-        unload: chart.url,
-    });
-});
+// $('#Africa').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Africa.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#Europe').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Europe.csv',
-        unload: chart.url,
-    });
-});
+// $('#Europe').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Europe.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#Oceania').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Oceania.csv',
-        unload: chart.url,
-    });
-});
+// $('#Oceania').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Oceania.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#NAmercia').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-NAmerica.csv',
-        unload: chart.url,
-    });
-});
+// $('#NAmercia').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-NAmerica.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#SAmerica').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-SAmerica.csv',
-        unload: chart.url,
-    });
-});
+// $('#SAmerica').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-SAmerica.csv',
+//         unload: chart.url,
+//     });
+// });
 
-$('#Antarctica').on('click', function () {
-    chart.load({
-      url: '../Data/Events-Continent/Events-Antarctica.csv',
-        unload: chart.url,
-    });
-});
+// $('#Antarctica').on('click', function () {
+//     chart.load({
+//       url: '../Data/Events-Continent/Events-Antarctica.csv',
+//         unload: chart.url,
+//     });
+// });
         
 
         
