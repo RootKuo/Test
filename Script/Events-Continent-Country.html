@@ -43,13 +43,14 @@
 <script type="text/javascript">
 var cs = 'bar';
 var ar = 'Continent';
+var rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
 
 $(document).ready(function () {
     $("#style,#area").change(function () {
 
         cs = $("#style").find('option:selected').val();
         ar = $("#area").find('option:selected').val();
-        var rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
+        rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
         
         var chart = c3.generate({
             bindto: '#chart',
