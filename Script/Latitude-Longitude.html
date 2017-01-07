@@ -17,9 +17,17 @@
 
 var chart = c3.generate({
     data: {
-         x: 'lng',
-         url: '../Data/Latitude-Longitude.csv',
-         type: 'scatter',
+         xs:{
+            'lat': 'lng',
+//            'latevents': 'elat',
+            'lngevents': 'elng',
+         },
+         url: '../Data/Events-Latitude-Longitude.csv',
+         type: {
+            lat: 'scatter',
+//            latevents: 'area-step',
+            lngevents: 'area-step',
+         }
         },
         axis: {
             x: {
