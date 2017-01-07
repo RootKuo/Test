@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 <br/>
 
 <select id="area">
@@ -24,6 +25,7 @@
     <option value='SAmerica'>South America</option>
     <option>Antarctica</option>
 </select>
+
 <br />
 
 <select id="style">
@@ -31,35 +33,38 @@
     <option value='pie'>Pie Chart</option>
     <option value='donut'>Donut Chart</option>
 </select>
+
 <br />
 
 <div id="chart"></div>
-</body>
-<script type="text/javascript">
 
+</body>
+
+<script type="text/javascript">
 $(document).ready(function () {
     $("#style","#area").change(function () {
+
         var cs = $("#style").find('option:selected').val();
         var ar = $("#area").find('option:selected').val();
-        var rd = "../Data/Events-Continent/Events-Continent.csv"
-console.log(rd)
+        var rd = "../Data/Events-Continent/Events-"+ar+".csv";
+        console.log(rd);
+        
         var chart = c3.generate({
-    bindto: '#chart',
-    data: {
-        url: rd,
-        type : cs,
-    },
-    pie: {
-        label: {
-            format: function (value, ratio, id) {
-                        return d3.format('')(value);
-                    }
-        }
-    },
-    legend: {
-        position: 'right'
-    }
-});
+            data: {
+                url: rd,
+                type : cs,
+            },
+            pie: {
+                label: {
+                     format: function (value, ratio, id) {
+                          return d3.format('')(value);
+                     }
+                }
+            }, 
+            legend: {
+                position: 'right'
+            }
+        });
 
 // $('#World').on('click', function () {
 //     chart.load({
@@ -121,12 +126,6 @@ console.log(rd)
         
     });
 });
-
-
-
-
-
-
 
 
 </script>
