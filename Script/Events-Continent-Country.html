@@ -58,7 +58,6 @@ $(document).ready(function () {
                 url: rd,
                 type: cs,
                 x: 'Country',
-                hide: 'Country',
             },
             pie: {
                 label: {
@@ -72,9 +71,18 @@ $(document).ready(function () {
                 ratio: 0.5
                 }
             },
+            axis: {
+                x: {
+                    type: 'category',
+                    tick: {
+                        rotate: 75,
+                        multiline: false,
+                    },   
+                    height: 130 
+                }
+            },
             legend: {
-                position: 'right',
-                hide: 'Country',
+                position: 'right'
             },
             color:{
               pattern:[
