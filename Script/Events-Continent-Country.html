@@ -16,7 +16,7 @@
 <br/>
 
 <select id="area">
-    <option value='Continent'>World</option>
+    <option value='Continent' >World</option>
     <option>Asia</option>
     <option>Africa</option>
     <option>Europe</option>
@@ -41,12 +41,14 @@
 </body>
 
 <script type="text/javascript">
+var cs = bar;
+var ar = Continent;
 
 $(document).ready(function () {
     $("#style,#area").change(function () {
 
-        var cs = $("#style").find('option:selected').val();
-        var ar = $("#area").find('option:selected').val();
+        cs = $("#style").find('option:selected').val();
+        ar = $("#area").find('option:selected').val();
         var rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
         
         var chart = c3.generate({
