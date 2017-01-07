@@ -19,13 +19,13 @@ var chart = c3.generate({
     data: {
          xs:{
             'lat': 'lng',
-//            'latevents': 'elat',
+            'latevents': 'elat',
             'lngevents': 'elng',
          },
          url: '../Data/Events-Latitude-Longitude.csv',
          type: {
             lat: 'scatter',
-//            latevents: 'area-step',
+            latevents: 'area-step',
             lngevents: 'area-step',
          }
         },
