@@ -11,12 +11,23 @@
 </head>
 
 <body>
+<br/>
+<input type="button" id="World" value="World"></input>
+<input type="button" id="Asia" value="Asia"></input>
+<input type="button" id="Africa" value="Africa"></input>
+<input type="button" id="Europe" value="Europe"></input>
+<input type="button" id="Oceania" value="Oceania"></input>
+<input type="button" id="NAmerica" value="North America"></input>
+<input type="button" id="SAmerica" value="South America"></input>
+<input type="button" id="Antarctica" value="Antarctica"></input>
+<br />
+
 <div id="chart"></div>
 </body>
 <script type="text/javascript">
 
-
 var chart = c3.generate({
+    bindto: '#chart',
     data: {
         url: '../Data/Events-Continent(Pie).csv',
         type : 'pie',
@@ -33,6 +44,62 @@ var chart = c3.generate({
     }
 });
 
+$('#World').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Continent.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#Asia').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Asia.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#Africa').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Africa.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#Europe').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Europe.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#Oceania').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Oceania.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#NAmercia').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-NAmerica.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#SAmerica').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-SAmerica.csv',
+        unload: chart.columns,
+    });
+});
+
+$('#Antarctica').on('click', function () {
+    chart.load({
+      url: '../Data/Events-Continent/Events-Antarctica.csv',
+        unload: chart.columns,
+    });
+});
 
 </script>
 </html>
+
