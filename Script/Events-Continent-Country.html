@@ -45,13 +45,7 @@ var cs = 'bar';
 var ar = 'Continent';
 var rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
 
-$(document).ready(function () {
-    $("#style,#area").change(function () {
-
-        cs = $("#style").find('option:selected').val();
-        ar = $("#area").find('option:selected').val();
-        rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
-        
+Plot = function(rd, cs){    
         var chart = c3.generate({
             bindto: '#chart',
             data: {
@@ -92,6 +86,15 @@ $(document).ready(function () {
               '#A04F50','#97536D','#7A5E84','#4F6B8B','#1D7380','#127666','#3A7547','#5E702E','#7F6724','#985B32']
             },
         });
+};
+
+Plot(rd,cs);
+$(document).ready(function () {
+    $("#style,#area").change(function () {
+        cs = $("#style").find('option:selected').val();
+        ar = $("#area").find('option:selected').val();
+        rd = "../Data/Events-Continent/"+cs+"/Events-"+ar+".csv";
+        Plot(rd,cs);
     });
 });
 
